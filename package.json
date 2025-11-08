@@ -1,0 +1,39 @@
+{
+  "name": "yt-video-extractor",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool to extract comprehensive information from YouTube videos including metadata, statistics, comments, and transcripts",
+  "main": "src/youtube-analyzer.js",
+  "bin": {
+    "yt-video-extractor": "./src/youtube-analyzer.js"
+  },
+  "scripts": {
+    "start": "node src/youtube-analyzer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "analysis",
+    "competitor",
+    "cli",
+    "video",
+    "extractor",
+    "metadata",
+    "transcripts",
+    "research"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/yt-video-extractor.git"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "dotenv": "^16.4.5",
+    "inquirer": "^12.11.0",
+    "youtube-captions-scraper": "^2.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
